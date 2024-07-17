@@ -2,6 +2,7 @@ package com.br.samuelfsd.encurta.dto;
 
 public class URLRequestDTO {
     private String url;
+    private String newUrl;
 
     public URLRequestDTO() {}
 
@@ -15,5 +16,13 @@ public class URLRequestDTO {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getNewUrl() {
+        return newUrl;
+    }
+
+    public void setNewUrl(String newUrl) {
+        this.newUrl = newUrl;
     }
 }
